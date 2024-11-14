@@ -25,6 +25,8 @@ The fastest way I can think of to test this, is to feed the program a series of 
 For example, competing against insertion sort, we would compare the new algorithms ability to process a reverse sorted list, i.e. [10,9,8,7...,3,2,1]
 Insertion sort handles this at a time of $O(n^2)$, if the new algorithm can process this list, and other lists following the same pattern of varying lengths and complexities, then the algorithm can be said to outperform insertion sort. This exact method, applied to every other general sorting algorithm is how we would prove that this new algorithm was superior to every general sorting algorithm.
 
+So, if X is faster for each sorting algorithm's worst case, then we can prove X is correct.
+
 ## Plagarism Statement and Sources
 
 Spoke to student Lily Brongo in class, asked her about the difficulty of the problem, she told me it wasn't too bad, just involved comparing runtimes for different lists. Other than that brief conversation, no other sources were used.
