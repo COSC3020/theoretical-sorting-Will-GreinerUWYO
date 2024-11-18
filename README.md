@@ -27,6 +27,8 @@ Insertion sort handles this at a time of $O(n^2)$, if the new algorithm can proc
 
 So, if X is faster for each sorting algorithm's worst case, then we can prove X is correct.
 
+In addition, we can also run this algorithm and compare the expected time to $O(n)$ as the expected time. One way we could do this is to give a set of lists which increase by a factor of 10. If the algorithm really does process all lists at $O(n)$, then regardless of the ordering of the lists, the algorithm will be increased in time by exactly a factor of 10 from the previous example. So if a list of length 12 took 2.5 seconds, a list of length 120 should take 25 seconds and so on. This would prove that this algorithm can sort arbitrary elements in $O(n)$ time. 
+
 ## Plagarism Statement and Sources
 
 Spoke to student Lily Brongo in class, asked her about the difficulty of the problem, she told me it wasn't too bad, just involved comparing runtimes for different lists. Other than that brief conversation, no other sources were used.
