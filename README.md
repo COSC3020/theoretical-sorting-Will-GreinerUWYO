@@ -29,8 +29,10 @@ So, if X is faster for each sorting algorithm's worst case, then we can prove X 
 
 In addition, we can also run this algorithm and compare the expected time to $O(n)$ as the expected time. One way we could do this is to give a set of lists which increase by a factor of 10. If the algorithm really does process all lists at $O(n)$, then regardless of the ordering of the lists, the algorithm will be increased in time by exactly a factor of 10 from the previous example. So if a list of length 12 took 2.5 seconds, a list of length 120 should take 25 seconds and so on. This would prove that this algorithm can sort arbitrary elements in $O(n)$ time. 
 
+If we compare this to the complexity of the sorting problem from slide 45 of the sorting slides, we can compare the complexity of the sorting problem, which is $&Omega(nlgn)$ knowing this, we can determine the possiblity of the algorithm. There are simply too many possible permutations of lists where not every case in every circumstance can be handled by $O(n)$. Therefore, we can say that this algorithm is not possible. 
+
 ## Plagarism Statement and Sources
 
-Spoke to student Lily Brongo in class, asked her about the difficulty of the problem, she told me it wasn't too bad, just involved comparing runtimes for different lists. Other than that brief conversation, no other sources were used.
+Spoke to student Lily Brongo in class, asked her about the difficulty of the problem, she told me it wasn't too bad, just involved comparing runtimes for different lists. Other than that brief conversation, no other sources were used. Later, she suggested I use slide 45 in the sorting slides to compare to the basic sorting algorithm. 
 
 I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
